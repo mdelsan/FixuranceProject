@@ -13,13 +13,13 @@ namespace TEst
 {
     public partial class App : global::Windows.UI.Xaml.Markup.IXamlMetadataProvider
     {
-        private global::TEst.TEst_XamlTypeInfo.XamlTypeInfoProvider _provider;
+        private global::FIXurance.FixuranceProject_XamlTypeInfo.XamlTypeInfoProvider _provider;
 
         public global::Windows.UI.Xaml.Markup.IXamlType GetXamlType(global::System.Type type)
         {
             if(_provider == null)
             {
-                _provider = new global::TEst.TEst_XamlTypeInfo.XamlTypeInfoProvider();
+                _provider = new global::FIXurance.FixuranceProject_XamlTypeInfo.XamlTypeInfoProvider();
             }
             return _provider.GetXamlTypeByType(type);
         }
@@ -28,7 +28,7 @@ namespace TEst
         {
             if(_provider == null)
             {
-                _provider = new global::TEst.TEst_XamlTypeInfo.XamlTypeInfoProvider();
+                _provider = new global::FIXurance.FixuranceProject_XamlTypeInfo.XamlTypeInfoProvider();
             }
             return _provider.GetXamlTypeByName(fullName);
         }
@@ -40,7 +40,7 @@ namespace TEst
     }
 }
 
-namespace TEst.TEst_XamlTypeInfo
+namespace FIXurance.FixuranceProject_XamlTypeInfo
 {
     
     [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Windows.UI.Xaml.Build.Tasks", "4.0.0.0")]    
@@ -124,7 +124,7 @@ namespace TEst.TEst_XamlTypeInfo
 
         private void InitTypeTables()
         {
-            _typeNameTable = new string[14];
+            _typeNameTable = new string[16];
             _typeNameTable[0] = "TEst.BasicPage1";
             _typeNameTable[1] = "Windows.UI.Xaml.Controls.Page";
             _typeNameTable[2] = "Windows.UI.Xaml.Controls.UserControl";
@@ -134,13 +134,15 @@ namespace TEst.TEst_XamlTypeInfo
             _typeNameTable[6] = "TEst.Common.NavigationHelper";
             _typeNameTable[7] = "Windows.UI.Xaml.DependencyObject";
             _typeNameTable[8] = "TEst.CallMeLater";
-            _typeNameTable[9] = "TEst.HomeInsurance";
-            _typeNameTable[10] = "TEst.InnerCircle";
-            _typeNameTable[11] = "TEst.InsuranceContact";
-            _typeNameTable[12] = "TEst.InsurancePricing";
-            _typeNameTable[13] = "TEst.MainPage";
+            _typeNameTable[9] = "TEst.CallMeLaterSaved";
+            _typeNameTable[10] = "TEst.HomeInsurance";
+            _typeNameTable[11] = "TEst.HomeInsuranceSaved";
+            _typeNameTable[12] = "TEst.InnerCircle";
+            _typeNameTable[13] = "TEst.InsuranceContact";
+            _typeNameTable[14] = "TEst.InsurancePricing";
+            _typeNameTable[15] = "TEst.MainPage";
 
-            _typeTable = new global::System.Type[14];
+            _typeTable = new global::System.Type[16];
             _typeTable[0] = typeof(global::TEst.BasicPage1);
             _typeTable[1] = typeof(global::Windows.UI.Xaml.Controls.Page);
             _typeTable[2] = typeof(global::Windows.UI.Xaml.Controls.UserControl);
@@ -150,11 +152,13 @@ namespace TEst.TEst_XamlTypeInfo
             _typeTable[6] = typeof(global::TEst.Common.NavigationHelper);
             _typeTable[7] = typeof(global::Windows.UI.Xaml.DependencyObject);
             _typeTable[8] = typeof(global::TEst.CallMeLater);
-            _typeTable[9] = typeof(global::TEst.HomeInsurance);
-            _typeTable[10] = typeof(global::TEst.InnerCircle);
-            _typeTable[11] = typeof(global::TEst.InsuranceContact);
-            _typeTable[12] = typeof(global::TEst.InsurancePricing);
-            _typeTable[13] = typeof(global::TEst.MainPage);
+            _typeTable[9] = typeof(global::TEst.CallMeLaterSaved);
+            _typeTable[10] = typeof(global::TEst.HomeInsurance);
+            _typeTable[11] = typeof(global::TEst.HomeInsuranceSaved);
+            _typeTable[12] = typeof(global::TEst.InnerCircle);
+            _typeTable[13] = typeof(global::TEst.InsuranceContact);
+            _typeTable[14] = typeof(global::TEst.InsurancePricing);
+            _typeTable[15] = typeof(global::TEst.MainPage);
         }
 
         private int LookupTypeIndexByName(string typeName)
@@ -192,11 +196,13 @@ namespace TEst.TEst_XamlTypeInfo
         private object Activate_0_BasicPage1() { return new global::TEst.BasicPage1(); }
         private object Activate_3_ObservableDictionary() { return new global::TEst.Common.ObservableDictionary(); }
         private object Activate_8_CallMeLater() { return new global::TEst.CallMeLater(); }
-        private object Activate_9_HomeInsurance() { return new global::TEst.HomeInsurance(); }
-        private object Activate_10_InnerCircle() { return new global::TEst.InnerCircle(); }
-        private object Activate_11_InsuranceContact() { return new global::TEst.InsuranceContact(); }
-        private object Activate_12_InsurancePricing() { return new global::TEst.InsurancePricing(); }
-        private object Activate_13_MainPage() { return new global::TEst.MainPage(); }
+        private object Activate_9_CallMeLaterSaved() { return new global::TEst.CallMeLaterSaved(); }
+        private object Activate_10_HomeInsurance() { return new global::TEst.HomeInsurance(); }
+        private object Activate_11_HomeInsuranceSaved() { return new global::TEst.HomeInsuranceSaved(); }
+        private object Activate_12_InnerCircle() { return new global::TEst.InnerCircle(); }
+        private object Activate_13_InsuranceContact() { return new global::TEst.InsuranceContact(); }
+        private object Activate_14_InsurancePricing() { return new global::TEst.InsurancePricing(); }
+        private object Activate_15_MainPage() { return new global::TEst.MainPage(); }
         private void MapAdd_3_ObservableDictionary(object instance, object key, object item)
         {
             var collection = (global::System.Collections.Generic.IDictionary<global::System.String, global::System.Object>)instance;
@@ -207,8 +213,8 @@ namespace TEst.TEst_XamlTypeInfo
 
         private global::Windows.UI.Xaml.Markup.IXamlType CreateXamlType(int typeIndex)
         {
-            global::TEst.TEst_XamlTypeInfo.XamlSystemBaseType xamlType = null;
-            global::TEst.TEst_XamlTypeInfo.XamlUserType userType;
+            global::FIXurance.FixuranceProject_XamlTypeInfo.XamlSystemBaseType xamlType = null;
+            global::FIXurance.FixuranceProject_XamlTypeInfo.XamlUserType userType;
             string typeName = _typeNameTable[typeIndex];
             global::System.Type type = _typeTable[typeIndex];
 
@@ -216,7 +222,7 @@ namespace TEst.TEst_XamlTypeInfo
             {
 
             case 0:   //  TEst.BasicPage1
-                userType = new global::TEst.TEst_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Windows.UI.Xaml.Controls.Page"));
+                userType = new global::FIXurance.FixuranceProject_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Windows.UI.Xaml.Controls.Page"));
                 userType.Activator = Activate_0_BasicPage1;
                 userType.AddMemberName("DefaultViewModel");
                 userType.AddMemberName("NavigationHelper");
@@ -225,15 +231,15 @@ namespace TEst.TEst_XamlTypeInfo
                 break;
 
             case 1:   //  Windows.UI.Xaml.Controls.Page
-                xamlType = new global::TEst.TEst_XamlTypeInfo.XamlSystemBaseType(typeName, type);
+                xamlType = new global::FIXurance.FixuranceProject_XamlTypeInfo.XamlSystemBaseType(typeName, type);
                 break;
 
             case 2:   //  Windows.UI.Xaml.Controls.UserControl
-                xamlType = new global::TEst.TEst_XamlTypeInfo.XamlSystemBaseType(typeName, type);
+                xamlType = new global::FIXurance.FixuranceProject_XamlTypeInfo.XamlSystemBaseType(typeName, type);
                 break;
 
             case 3:   //  TEst.Common.ObservableDictionary
-                userType = new global::TEst.TEst_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Object"));
+                userType = new global::FIXurance.FixuranceProject_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Object"));
                 userType.DictionaryAdd = MapAdd_3_ObservableDictionary;
                 userType.SetIsReturnTypeStub();
                 userType.SetIsLocalType();
@@ -241,62 +247,76 @@ namespace TEst.TEst_XamlTypeInfo
                 break;
 
             case 4:   //  Object
-                xamlType = new global::TEst.TEst_XamlTypeInfo.XamlSystemBaseType(typeName, type);
+                xamlType = new global::FIXurance.FixuranceProject_XamlTypeInfo.XamlSystemBaseType(typeName, type);
                 break;
 
             case 5:   //  String
-                xamlType = new global::TEst.TEst_XamlTypeInfo.XamlSystemBaseType(typeName, type);
+                xamlType = new global::FIXurance.FixuranceProject_XamlTypeInfo.XamlSystemBaseType(typeName, type);
                 break;
 
             case 6:   //  TEst.Common.NavigationHelper
-                userType = new global::TEst.TEst_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Windows.UI.Xaml.DependencyObject"));
+                userType = new global::FIXurance.FixuranceProject_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Windows.UI.Xaml.DependencyObject"));
                 userType.SetIsReturnTypeStub();
                 userType.SetIsLocalType();
                 xamlType = userType;
                 break;
 
             case 7:   //  Windows.UI.Xaml.DependencyObject
-                xamlType = new global::TEst.TEst_XamlTypeInfo.XamlSystemBaseType(typeName, type);
+                xamlType = new global::FIXurance.FixuranceProject_XamlTypeInfo.XamlSystemBaseType(typeName, type);
                 break;
 
             case 8:   //  TEst.CallMeLater
-                userType = new global::TEst.TEst_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Windows.UI.Xaml.Controls.Page"));
+                userType = new global::FIXurance.FixuranceProject_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Windows.UI.Xaml.Controls.Page"));
                 userType.Activator = Activate_8_CallMeLater;
                 userType.SetIsLocalType();
                 xamlType = userType;
                 break;
 
-            case 9:   //  TEst.HomeInsurance
-                userType = new global::TEst.TEst_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Windows.UI.Xaml.Controls.Page"));
-                userType.Activator = Activate_9_HomeInsurance;
+            case 9:   //  TEst.CallMeLaterSaved
+                userType = new global::FIXurance.FixuranceProject_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Windows.UI.Xaml.Controls.Page"));
+                userType.Activator = Activate_9_CallMeLaterSaved;
                 userType.SetIsLocalType();
                 xamlType = userType;
                 break;
 
-            case 10:   //  TEst.InnerCircle
-                userType = new global::TEst.TEst_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Windows.UI.Xaml.Controls.Page"));
-                userType.Activator = Activate_10_InnerCircle;
+            case 10:   //  TEst.HomeInsurance
+                userType = new global::FIXurance.FixuranceProject_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Windows.UI.Xaml.Controls.Page"));
+                userType.Activator = Activate_10_HomeInsurance;
                 userType.SetIsLocalType();
                 xamlType = userType;
                 break;
 
-            case 11:   //  TEst.InsuranceContact
-                userType = new global::TEst.TEst_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Windows.UI.Xaml.Controls.Page"));
-                userType.Activator = Activate_11_InsuranceContact;
+            case 11:   //  TEst.HomeInsuranceSaved
+                userType = new global::FIXurance.FixuranceProject_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Windows.UI.Xaml.Controls.Page"));
+                userType.Activator = Activate_11_HomeInsuranceSaved;
                 userType.SetIsLocalType();
                 xamlType = userType;
                 break;
 
-            case 12:   //  TEst.InsurancePricing
-                userType = new global::TEst.TEst_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Windows.UI.Xaml.Controls.Page"));
-                userType.Activator = Activate_12_InsurancePricing;
+            case 12:   //  TEst.InnerCircle
+                userType = new global::FIXurance.FixuranceProject_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Windows.UI.Xaml.Controls.Page"));
+                userType.Activator = Activate_12_InnerCircle;
                 userType.SetIsLocalType();
                 xamlType = userType;
                 break;
 
-            case 13:   //  TEst.MainPage
-                userType = new global::TEst.TEst_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Windows.UI.Xaml.Controls.Page"));
-                userType.Activator = Activate_13_MainPage;
+            case 13:   //  TEst.InsuranceContact
+                userType = new global::FIXurance.FixuranceProject_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Windows.UI.Xaml.Controls.Page"));
+                userType.Activator = Activate_13_InsuranceContact;
+                userType.SetIsLocalType();
+                xamlType = userType;
+                break;
+
+            case 14:   //  TEst.InsurancePricing
+                userType = new global::FIXurance.FixuranceProject_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Windows.UI.Xaml.Controls.Page"));
+                userType.Activator = Activate_14_InsurancePricing;
+                userType.SetIsLocalType();
+                xamlType = userType;
+                break;
+
+            case 15:   //  TEst.MainPage
+                userType = new global::FIXurance.FixuranceProject_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Windows.UI.Xaml.Controls.Page"));
+                userType.Activator = Activate_15_MainPage;
                 userType.SetIsLocalType();
                 xamlType = userType;
                 break;
@@ -318,20 +338,20 @@ namespace TEst.TEst_XamlTypeInfo
 
         private global::Windows.UI.Xaml.Markup.IXamlMember CreateXamlMember(string longMemberName)
         {
-            global::TEst.TEst_XamlTypeInfo.XamlMember xamlMember = null;
-            global::TEst.TEst_XamlTypeInfo.XamlUserType userType;
+            global::FIXurance.FixuranceProject_XamlTypeInfo.XamlMember xamlMember = null;
+            global::FIXurance.FixuranceProject_XamlTypeInfo.XamlUserType userType;
 
             switch (longMemberName)
             {
             case "TEst.BasicPage1.DefaultViewModel":
-                userType = (global::TEst.TEst_XamlTypeInfo.XamlUserType)GetXamlTypeByName("TEst.BasicPage1");
-                xamlMember = new global::TEst.TEst_XamlTypeInfo.XamlMember(this, "DefaultViewModel", "TEst.Common.ObservableDictionary");
+                userType = (global::FIXurance.FixuranceProject_XamlTypeInfo.XamlUserType)GetXamlTypeByName("TEst.BasicPage1");
+                xamlMember = new global::FIXurance.FixuranceProject_XamlTypeInfo.XamlMember(this, "DefaultViewModel", "TEst.Common.ObservableDictionary");
                 xamlMember.Getter = get_0_BasicPage1_DefaultViewModel;
                 xamlMember.SetIsReadOnly();
                 break;
             case "TEst.BasicPage1.NavigationHelper":
-                userType = (global::TEst.TEst_XamlTypeInfo.XamlUserType)GetXamlTypeByName("TEst.BasicPage1");
-                xamlMember = new global::TEst.TEst_XamlTypeInfo.XamlMember(this, "NavigationHelper", "TEst.Common.NavigationHelper");
+                userType = (global::FIXurance.FixuranceProject_XamlTypeInfo.XamlUserType)GetXamlTypeByName("TEst.BasicPage1");
+                xamlMember = new global::FIXurance.FixuranceProject_XamlTypeInfo.XamlMember(this, "NavigationHelper", "TEst.Common.NavigationHelper");
                 xamlMember.Getter = get_1_BasicPage1_NavigationHelper;
                 xamlMember.SetIsReadOnly();
                 break;
@@ -391,9 +411,9 @@ namespace TEst.TEst_XamlTypeInfo
     
     [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Windows.UI.Xaml.Build.Tasks", "4.0.0.0")]    
     [System.Diagnostics.DebuggerNonUserCodeAttribute()]
-    internal class XamlUserType : global::TEst.TEst_XamlTypeInfo.XamlSystemBaseType
+    internal class XamlUserType : global::FIXurance.FixuranceProject_XamlTypeInfo.XamlSystemBaseType
     {
-        global::TEst.TEst_XamlTypeInfo.XamlTypeInfoProvider _provider;
+        global::FIXurance.FixuranceProject_XamlTypeInfo.XamlTypeInfoProvider _provider;
         global::Windows.UI.Xaml.Markup.IXamlType _baseType;
         bool _isArray;
         bool _isMarkupExtension;
@@ -407,7 +427,7 @@ namespace TEst.TEst_XamlTypeInfo
         global::System.Collections.Generic.Dictionary<string, string> _memberNames;
         global::System.Collections.Generic.Dictionary<string, object> _enumValues;
 
-        public XamlUserType(global::TEst.TEst_XamlTypeInfo.XamlTypeInfoProvider provider, string fullName, global::System.Type fullType, global::Windows.UI.Xaml.Markup.IXamlType baseType)
+        public XamlUserType(global::FIXurance.FixuranceProject_XamlTypeInfo.XamlTypeInfoProvider provider, string fullName, global::System.Type fullType, global::Windows.UI.Xaml.Markup.IXamlType baseType)
             :base(fullName, fullType)
         {
             _provider = provider;
@@ -600,7 +620,7 @@ namespace TEst.TEst_XamlTypeInfo
     [System.Diagnostics.DebuggerNonUserCodeAttribute()]
     internal class XamlMember : global::Windows.UI.Xaml.Markup.IXamlMember
     {
-        global::TEst.TEst_XamlTypeInfo.XamlTypeInfoProvider _provider;
+        global::FIXurance.FixuranceProject_XamlTypeInfo.XamlTypeInfoProvider _provider;
         string _name;
         bool _isAttachable;
         bool _isDependencyProperty;
@@ -609,7 +629,7 @@ namespace TEst.TEst_XamlTypeInfo
         string _typeName;
         string _targetTypeName;
 
-        public XamlMember(global::TEst.TEst_XamlTypeInfo.XamlTypeInfoProvider provider, string name, string typeName)
+        public XamlMember(global::FIXurance.FixuranceProject_XamlTypeInfo.XamlTypeInfoProvider provider, string name, string typeName)
         {
             _name = name;
             _typeName = typeName;

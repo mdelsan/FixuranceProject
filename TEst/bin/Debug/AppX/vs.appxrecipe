@@ -7,170 +7,194 @@
     <SolutionConfiguration>Debug|AnyCPU</SolutionConfiguration>
     <PackageArchitecture>neutral</PackageArchitecture>
     <PackageIdentityName>bbe554d4-82a5-4e11-9a47-2bf0c404c9d4</PackageIdentityName>
-    <IntermediateOutputPath>C:\Users\codecamp\documents\visual studio 2013\Projects\TEst\TEst\obj\Debug\</IntermediateOutputPath>
-    <RegisteredManifestChecksum>7DAFF4FA9FA58855A25BA1641C282FE80FC8A7E899E1C697E408E939C9D5019F</RegisteredManifestChecksum>
-    <RegisteredPackageMoniker>bbe554d4-82a5-4e11-9a47-2bf0c404c9d4_1.0.0.0_neutral__qj5ja5pefmqbr</RegisteredPackageMoniker>
+    <IntermediateOutputPath>C:\Users\codecamp\Desktop\FixuranceProject\TEst\obj\Debug\</IntermediateOutputPath>
+    <RegisteredManifestChecksum>A57AA8B69A632E41EBDBC70E886D89C5398FE057B878CACD0082C3DDDDB9B9F4</RegisteredManifestChecksum>
+    <RegisteredPackageMoniker>bbe554d4-82a5-4e11-9a47-2bf0c404c9d4_1.1.0.0_neutral__qj5ja5pefmqbr</RegisteredPackageMoniker>
     <RegisteredUserModeAppID>bbe554d4-82a5-4e11-9a47-2bf0c404c9d4_qj5ja5pefmqbr!App</RegisteredUserModeAppID>
     <RegisteredPackageID>bbe554d4-82a5-4e11-9a47-2bf0c404c9d4</RegisteredPackageID>
     <RegisteredPackagePublisher>CN=codecamp</RegisteredPackagePublisher>
-    <RegisteredVersion>1.0.0.0</RegisteredVersion>
+    <RegisteredVersion>1.1.0.0</RegisteredVersion>
     <JitOptimizationSuppressed>True</JitOptimizationSuppressed>
   </PropertyGroup>
   <ItemGroup>
-    <AppXManifest Include="C:\Users\codecamp\documents\visual studio 2013\Projects\TEst\TEst\bin\Debug\AppxManifest.xml">
+    <AppXManifest Include="C:\Users\codecamp\Desktop\FixuranceProject\TEst\bin\Debug\AppxManifest.xml">
       <PackagePath>AppxManifest.xml</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2015-05-28T11:57:19.411</Modified>
+      <Modified>2015-05-28T18:11:43.029</Modified>
     </AppXManifest>
   </ItemGroup>
   <ItemGroup>
-    <AppxPackagedFile Include="C:\Users\codecamp\documents\visual studio 2013\Projects\TEst\TEst\bin\Debug\TEst.exe">
-      <PackagePath>TEst.exe</PackagePath>
-      <Modified>2015-05-28T12:13:13.398</Modified>
+    <AppxPackagedFile Include="C:\Users\codecamp\Desktop\FixuranceProject\TEst\bin\Debug\FIXurance.exe">
+      <PackagePath>FIXurance.exe</PackagePath>
+      <Modified>2015-05-28T18:10:34.272</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\codecamp\documents\visual studio 2013\Projects\TEst\packages\Newtonsoft.Json.6.0.8\lib\netcore45\Newtonsoft.Json.dll">
+    <AppxPackagedFile Include="C:\Users\codecamp\Desktop\FixuranceProject\packages\Newtonsoft.Json.6.0.8\lib\netcore45\Newtonsoft.Json.dll">
       <PackagePath>Newtonsoft.Json.dll</PackagePath>
       <Modified>2015-05-28T09:25:17.671</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\codecamp\documents\visual studio 2013\Projects\TEst\TEst\Assets\Images\Icons\agree_afternoon.png">
+    <AppxPackagedFile Include="C:\Users\codecamp\Desktop\FixuranceProject\TEst\Assets\Images\Icons\callme_vehicle.png">
+      <PackagePath>Assets\Images\Icons\callme_vehicle.png</PackagePath>
+      <Modified>2015-05-28T18:01:55.618</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\codecamp\Desktop\FixuranceProject\TEst\Assets\Images\Icons\callme_family.png">
+      <PackagePath>Assets\Images\Icons\callme_family.png</PackagePath>
+      <Modified>2015-05-28T17:54:35.697</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\codecamp\Desktop\FixuranceProject\TEst\Assets\Images\Icons\callme_pet.png">
+      <PackagePath>Assets\Images\Icons\callme_pet.png</PackagePath>
+      <Modified>2015-05-28T17:54:35.705</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\codecamp\Desktop\FixuranceProject\TEst\Assets\Images\Icons\callme_health.png">
+      <PackagePath>Assets\Images\Icons\callme_health.png</PackagePath>
+      <Modified>2015-05-28T17:54:35.710</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\codecamp\Desktop\FixuranceProject\TEst\Assets\Images\Icons\agree_afternoon.png">
       <PackagePath>Assets\Images\Icons\agree_afternoon.png</PackagePath>
       <Modified>2015-05-27T14:51:48.308</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\codecamp\documents\visual studio 2013\Projects\TEst\TEst\Assets\Images\Icons\agree_morning.png">
+    <AppxPackagedFile Include="C:\Users\codecamp\Desktop\FixuranceProject\TEst\Assets\Images\Icons\agree_morning.png">
       <PackagePath>Assets\Images\Icons\agree_morning.png</PackagePath>
       <Modified>2015-05-27T14:51:48.311</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\codecamp\documents\visual studio 2013\Projects\TEst\TEst\Assets\Images\Icons\agree_night.png">
+    <AppxPackagedFile Include="C:\Users\codecamp\Desktop\FixuranceProject\TEst\Assets\Images\Icons\agree_night.png">
       <PackagePath>Assets\Images\Icons\agree_night.png</PackagePath>
       <Modified>2015-05-27T14:51:48.314</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\codecamp\documents\visual studio 2013\Projects\TEst\TEst\Assets\Images\Icons\agree_weekday.png">
+    <AppxPackagedFile Include="C:\Users\codecamp\Desktop\FixuranceProject\TEst\Assets\Images\Icons\agree_weekday.png">
       <PackagePath>Assets\Images\Icons\agree_weekday.png</PackagePath>
       <Modified>2015-05-27T14:51:48.317</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\codecamp\documents\visual studio 2013\Projects\TEst\TEst\Assets\Images\Icons\agree_weekend.png">
+    <AppxPackagedFile Include="C:\Users\codecamp\Desktop\FixuranceProject\TEst\Assets\Images\Icons\agree_weekend.png">
       <PackagePath>Assets\Images\Icons\agree_weekend.png</PackagePath>
       <Modified>2015-05-27T14:51:48.319</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\codecamp\documents\visual studio 2013\Projects\TEst\TEst\Assets\Images\Icons\insurance_1.png">
+    <AppxPackagedFile Include="C:\Users\codecamp\Desktop\FixuranceProject\TEst\Assets\Images\Icons\insurance_1.png">
       <PackagePath>Assets\Images\Icons\insurance_1.png</PackagePath>
       <Modified>2015-05-27T14:51:48.321</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\codecamp\documents\visual studio 2013\Projects\TEst\TEst\Assets\Images\Icons\insurance_12.png">
+    <AppxPackagedFile Include="C:\Users\codecamp\Desktop\FixuranceProject\TEst\Assets\Images\Icons\insurance_12.png">
       <PackagePath>Assets\Images\Icons\insurance_12.png</PackagePath>
       <Modified>2015-05-27T14:51:48.323</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\codecamp\documents\visual studio 2013\Projects\TEst\TEst\Assets\Images\Icons\insurance_4.png">
+    <AppxPackagedFile Include="C:\Users\codecamp\Desktop\FixuranceProject\TEst\Assets\Images\Icons\insurance_4.png">
       <PackagePath>Assets\Images\Icons\insurance_4.png</PackagePath>
       <Modified>2015-05-27T14:51:48.324</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\codecamp\documents\visual studio 2013\Projects\TEst\TEst\Assets\Images\Icons\insurance_apartment.png">
+    <AppxPackagedFile Include="C:\Users\codecamp\Desktop\FixuranceProject\TEst\Assets\Images\Icons\insurance_apartment.png">
       <PackagePath>Assets\Images\Icons\insurance_apartment.png</PackagePath>
       <Modified>2015-05-27T14:51:48.326</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\codecamp\documents\visual studio 2013\Projects\TEst\TEst\Assets\Images\Icons\insurance_dolar.png">
+    <AppxPackagedFile Include="C:\Users\codecamp\Desktop\FixuranceProject\TEst\Assets\Images\Icons\insurance_dolar.png">
       <PackagePath>Assets\Images\Icons\insurance_dolar.png</PackagePath>
       <Modified>2015-05-27T14:51:48.328</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\codecamp\documents\visual studio 2013\Projects\TEst\TEst\Assets\Images\Icons\insurance_euro.png">
+    <AppxPackagedFile Include="C:\Users\codecamp\Desktop\FixuranceProject\TEst\Assets\Images\Icons\insurance_euro.png">
       <PackagePath>Assets\Images\Icons\insurance_euro.png</PackagePath>
       <Modified>2015-05-27T14:51:48.330</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\codecamp\documents\visual studio 2013\Projects\TEst\TEst\Assets\Images\Icons\insurance_house.png">
+    <AppxPackagedFile Include="C:\Users\codecamp\Desktop\FixuranceProject\TEst\Assets\Images\Icons\insurance_house.png">
       <PackagePath>Assets\Images\Icons\insurance_house.png</PackagePath>
       <Modified>2015-05-27T14:51:48.332</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\codecamp\documents\visual studio 2013\Projects\TEst\TEst\Assets\Images\Icons\insurance_pairHouse.png">
+    <AppxPackagedFile Include="C:\Users\codecamp\Desktop\FixuranceProject\TEst\Assets\Images\Icons\insurance_pairHouse.png">
       <PackagePath>Assets\Images\Icons\insurance_pairHouse.png</PackagePath>
       <Modified>2015-05-27T14:51:48.345</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\codecamp\documents\visual studio 2013\Projects\TEst\TEst\Assets\Images\Icons\insurance_rawHouse.png">
+    <AppxPackagedFile Include="C:\Users\codecamp\Desktop\FixuranceProject\TEst\Assets\Images\Icons\insurance_rawHouse.png">
       <PackagePath>Assets\Images\Icons\insurance_rawHouse.png</PackagePath>
       <Modified>2015-05-27T14:51:48.348</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\codecamp\documents\visual studio 2013\Projects\TEst\TEst\Assets\Images\Icons\insurance_sauna.png">
+    <AppxPackagedFile Include="C:\Users\codecamp\Desktop\FixuranceProject\TEst\Assets\Images\Icons\insurance_sauna.png">
       <PackagePath>Assets\Images\Icons\insurance_sauna.png</PackagePath>
       <Modified>2015-05-27T14:51:48.350</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\codecamp\documents\visual studio 2013\Projects\TEst\TEst\Assets\Images\Icons\insurance_summerHouse.png">
+    <AppxPackagedFile Include="C:\Users\codecamp\Desktop\FixuranceProject\TEst\Assets\Images\Icons\insurance_summerHouse.png">
       <PackagePath>Assets\Images\Icons\insurance_summerHouse.png</PackagePath>
       <Modified>2015-05-27T14:51:48.352</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\codecamp\documents\visual studio 2013\Projects\TEst\TEst\Assets\Images\logo.png">
+    <AppxPackagedFile Include="C:\Users\codecamp\Desktop\FixuranceProject\TEst\Assets\Images\logo.png">
       <PackagePath>Assets\Images\logo.png</PackagePath>
       <Modified>2015-05-27T14:51:48.356</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\codecamp\documents\visual studio 2013\Projects\TEst\TEst\Assets\Images\main_callMeLater.png">
+    <AppxPackagedFile Include="C:\Users\codecamp\Desktop\FixuranceProject\TEst\Assets\Images\main_callMeLater.png">
       <PackagePath>Assets\Images\main_callMeLater.png</PackagePath>
       <Modified>2015-05-27T14:51:48.358</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\codecamp\documents\visual studio 2013\Projects\TEst\TEst\Assets\Images\main_home.png">
+    <AppxPackagedFile Include="C:\Users\codecamp\Desktop\FixuranceProject\TEst\Assets\Images\main_home.png">
       <PackagePath>Assets\Images\main_home.png</PackagePath>
       <Modified>2015-05-27T14:51:48.359</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\codecamp\documents\visual studio 2013\Projects\TEst\TEst\Assets\Images\main_innercircle.png">
+    <AppxPackagedFile Include="C:\Users\codecamp\Desktop\FixuranceProject\TEst\Assets\Images\main_innercircle.png">
       <PackagePath>Assets\Images\main_innercircle.png</PackagePath>
       <Modified>2015-05-27T14:51:48.362</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\codecamp\documents\visual studio 2013\Projects\TEst\TEst\Assets\Logo.scale-100.png">
+    <AppxPackagedFile Include="C:\Users\codecamp\Desktop\FixuranceProject\TEst\Assets\Logo.scale-100.png">
       <PackagePath>Assets\Logo.scale-100.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
       <Modified>2013-07-23T04:01:02.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\codecamp\documents\visual studio 2013\Projects\TEst\TEst\Assets\SmallLogo.scale-100.png">
+    <AppxPackagedFile Include="C:\Users\codecamp\Desktop\FixuranceProject\TEst\Assets\SmallLogo.scale-100.png">
       <PackagePath>Assets\SmallLogo.scale-100.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
       <Modified>2013-07-23T04:01:02.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\codecamp\documents\visual studio 2013\Projects\TEst\TEst\Assets\SplashScreen.scale-100.png">
+    <AppxPackagedFile Include="C:\Users\codecamp\Desktop\FixuranceProject\TEst\Assets\SplashScreen.scale-100.png">
       <PackagePath>Assets\SplashScreen.scale-100.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
       <Modified>2013-07-23T04:01:02.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\codecamp\documents\visual studio 2013\Projects\TEst\TEst\Assets\StoreLogo.scale-100.png">
+    <AppxPackagedFile Include="C:\Users\codecamp\Desktop\FixuranceProject\TEst\Assets\StoreLogo.scale-100.png">
       <PackagePath>Assets\StoreLogo.scale-100.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
       <Modified>2013-07-23T04:01:02.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\codecamp\documents\visual studio 2013\Projects\TEst\TEst\bin\Debug\App.xbf">
+    <AppxPackagedFile Include="C:\Users\codecamp\Desktop\FixuranceProject\TEst\bin\Debug\App.xbf">
       <PackagePath>App.xbf</PackagePath>
-      <Modified>2015-05-28T12:09:54.620</Modified>
+      <Modified>2015-05-28T18:10:33.960</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\codecamp\documents\visual studio 2013\Projects\TEst\TEst\bin\Debug\BasicPage1.xbf">
+    <AppxPackagedFile Include="C:\Users\codecamp\Desktop\FixuranceProject\TEst\bin\Debug\BasicPage1.xbf">
       <PackagePath>BasicPage1.xbf</PackagePath>
-      <Modified>2015-05-28T11:52:16.173</Modified>
+      <Modified>2015-05-28T17:53:36.633</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\codecamp\documents\visual studio 2013\Projects\TEst\TEst\bin\Debug\CallMeLater.xbf">
+    <AppxPackagedFile Include="C:\Users\codecamp\Desktop\FixuranceProject\TEst\bin\Debug\CallMeLater.xbf">
       <PackagePath>CallMeLater.xbf</PackagePath>
-      <Modified>2015-05-28T10:14:29.471</Modified>
+      <Modified>2015-05-28T18:10:33.964</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\codecamp\documents\visual studio 2013\Projects\TEst\TEst\bin\Debug\HomeInsurance.xbf">
+    <AppxPackagedFile Include="C:\Users\codecamp\Desktop\FixuranceProject\TEst\bin\Debug\CallMeLaterSaved.xbf">
+      <PackagePath>CallMeLaterSaved.xbf</PackagePath>
+      <Modified>2015-05-28T18:10:33.964</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\codecamp\Desktop\FixuranceProject\TEst\bin\Debug\HomeInsurance.xbf">
       <PackagePath>HomeInsurance.xbf</PackagePath>
-      <Modified>2015-05-28T12:09:54.624</Modified>
+      <Modified>2015-05-28T17:53:36.637</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\codecamp\documents\visual studio 2013\Projects\TEst\TEst\bin\Debug\InnerCircle.xbf">
+    <AppxPackagedFile Include="C:\Users\codecamp\Desktop\FixuranceProject\TEst\bin\Debug\HomeInsuranceSaved.xbf">
+      <PackagePath>HomeInsuranceSaved.xbf</PackagePath>
+      <Modified>2015-05-28T17:53:36.637</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\codecamp\Desktop\FixuranceProject\TEst\bin\Debug\InnerCircle.xbf">
       <PackagePath>InnerCircle.xbf</PackagePath>
-      <Modified>2015-05-28T10:14:29.476</Modified>
+      <Modified>2015-05-28T18:10:33.965</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\codecamp\documents\visual studio 2013\Projects\TEst\TEst\bin\Debug\InsuranceContact.xbf">
+    <AppxPackagedFile Include="C:\Users\codecamp\Desktop\FixuranceProject\TEst\bin\Debug\InsuranceContact.xbf">
       <PackagePath>InsuranceContact.xbf</PackagePath>
-      <Modified>2015-05-28T10:14:29.479</Modified>
+      <Modified>2015-05-28T17:53:36.639</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\codecamp\documents\visual studio 2013\Projects\TEst\TEst\bin\Debug\InsurancePricing.xbf">
+    <AppxPackagedFile Include="C:\Users\codecamp\Desktop\FixuranceProject\TEst\bin\Debug\InsurancePricing.xbf">
       <PackagePath>InsurancePricing.xbf</PackagePath>
-      <Modified>2015-05-28T12:09:54.624</Modified>
+      <Modified>2015-05-28T17:53:36.640</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\codecamp\documents\visual studio 2013\Projects\TEst\TEst\bin\Debug\MainPage.xbf">
+    <AppxPackagedFile Include="C:\Users\codecamp\Desktop\FixuranceProject\TEst\bin\Debug\MainPage.xbf">
       <PackagePath>MainPage.xbf</PackagePath>
-      <Modified>2015-05-28T10:14:29.482</Modified>
+      <Modified>2015-05-28T17:53:36.642</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\codecamp\documents\visual studio 2013\Projects\TEst\TEst\bin\Debug\TEst.xr.xml">
-      <PackagePath>TEst.xr.xml</PackagePath>
-      <Modified>2015-05-28T12:09:54.592</Modified>
+    <AppxPackagedFile Include="C:\Users\codecamp\Desktop\FixuranceProject\TEst\bin\Debug\FIXurance.xr.xml">
+      <PackagePath>FIXurance.xr.xml</PackagePath>
+      <Modified>2015-05-28T18:10:04.407</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\codecamp\documents\visual studio 2013\Projects\TEst\TEst\bin\Debug\resources.pri">
+    <AppxPackagedFile Include="C:\Users\codecamp\Desktop\FixuranceProject\TEst\bin\Debug\resources.pri">
       <PackagePath>resources.pri</PackagePath>
-      <Modified>2015-05-28T11:57:19.346</Modified>
+      <Modified>2015-05-28T18:11:42.967</Modified>
     </AppxPackagedFile>
   </ItemGroup>
   <ItemGroup>

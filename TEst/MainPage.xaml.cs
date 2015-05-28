@@ -41,5 +41,10 @@ namespace TEst
         {
             this.Frame.Navigate(typeof(InnerCircle), null);
         }
+
+        private void Exit_Application(object sender, RoutedEventArgs e)
+        {
+            Application.Current.Exit();
+        }
     }
 }

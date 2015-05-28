@@ -13,6 +13,9 @@
         <!--BigFontSize for text in buttons -->
         <x:Double x:Key="BigFontSize">48</x:Double>
 
+        <!--BigFontSize for text in buttons -->
+        <x:Double x:Key="HugeFontSize">72</x:Double>
+
         <!--MainFontSize for text in buttons -->
         <x:Double x:Key="MainFontSize">30</x:Double>
 

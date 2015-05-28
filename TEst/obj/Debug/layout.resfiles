@@ -3,6 +3,10 @@ Assets\Images\Icons\agree_morning.png
 Assets\Images\Icons\agree_night.png
 Assets\Images\Icons\agree_weekday.png
 Assets\Images\Icons\agree_weekend.png
+Assets\Images\Icons\callme_family.png
+Assets\Images\Icons\callme_health.png
+Assets\Images\Icons\callme_pet.png
+Assets\Images\Icons\callme_vehicle.png
 Assets\Images\Icons\insurance_1.png
 Assets\Images\Icons\insurance_12.png
 Assets\Images\Icons\insurance_4.png
@@ -25,9 +29,11 @@ Assets\StoreLogo.scale-100.png
 App.xbf
 BasicPage1.xbf
 CallMeLater.xbf
+CallMeLaterSaved.xbf
+FIXurance.xr.xml
 HomeInsurance.xbf
+HomeInsuranceSaved.xbf
 InnerCircle.xbf
 InsuranceContact.xbf
 InsurancePricing.xbf
 MainPage.xbf
-TEst.xr.xml

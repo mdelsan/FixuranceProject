@@ -26,5 +26,39 @@ namespace TEst
         {
             this.InitializeComponent();
         }
+
+        private void Main_Click(object sender, RoutedEventArgs e)
+        {
+            this.Frame.Navigate(typeof(MainPage), null);
+        }
+
+        private void Acceptance_Click(object sender, RoutedEventArgs e)
+        {
+            Person myPerson = new Person();
+
+            myPerson.FirstName = FirstName.Text;
+            myPerson.LastName = LastName.Text;
+            myPerson.Email = Email.Text;
+            myPerson.Phone = Phone.Text;
+
+            if (MORNING.IsChecked == true)
+                myPerson.ContactHour = "Morning";
+            else if (AFTERNOON.IsChecked == true)
+                myPerson.ContactHour = "Afternoon";
+            else
+                myPerson.ContactHour = "Night";
+
+            if (WEEKDAY.IsChecked == true)
+                myPerson.PreferredTime = "Weekday";
+            else
+                myPerson.PreferredTime = "Weekend";
+            
+            this.Frame.Navigate(typeof(HomeInsuranceSaved), myPerson);
+        }
+
+        private void Reset_Click(object sender, RoutedEventArgs e)
+        {
+            this.Frame.Navigate(typeof(InsuranceContact), null);
+        }
     }
 }

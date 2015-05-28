@@ -7,7 +7,90 @@
     xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
     mc:Ignorable="d">
 
-    <Grid Background="Blue">
-        <TextBlock Text="Hola" FontSize="{StaticResource BigFontSize}"></TextBlock>
+    <Grid Background="{StaticResource MainColor}">
+        <Grid.RowDefinitions>
+            <RowDefinition Height="15*"></RowDefinition>
+            <RowDefinition Height="85*"></RowDefinition>
+        </Grid.RowDefinitions>
+        <Image Source="/Assets/Images/logo.png" Grid.Column="0" VerticalAlignment="Top" HorizontalAlignment="Left" Margin="10,10,0,0" Grid.ColumnSpan="2"></Image>
+        <TextBlock TextWrapping="Wrap" Text="Home Insurance" FontSize="{StaticResource BigFontSize}" Foreground="{StaticResource MainFontColor}" FontFamily="Arial" HorizontalAlignment="Right" VerticalAlignment="Center"/>
+        <Grid Grid.Row="1">
+
+            <Grid.RowDefinitions>
+                <RowDefinition Height="*"/>
+                <RowDefinition Height="*"/>
+                <RowDefinition Height="*"/>
+                <RowDefinition Height="*"/>
+                <RowDefinition Height="*"/>
+                <RowDefinition Height="*"/>
+                <RowDefinition Height="*"/>
+                <RowDefinition Height="*"/>
+                <RowDefinition Height="*"/>
+                <RowDefinition Height="*"/>
+
+            </Grid.RowDefinitions>
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="*"/>
+                <ColumnDefinition Width="*"/>
+                <ColumnDefinition Width="*"/>
+                <ColumnDefinition Width="*"/>
+                <ColumnDefinition Width="*"/>
+                <ColumnDefinition Width="*"/>
+                <ColumnDefinition Width="*"/>
+                <ColumnDefinition Width="*"/>
+                <ColumnDefinition Width="*"/>
+            </Grid.ColumnDefinitions>
+
+            <TextBlock VerticalAlignment="Center" TextAlignment="Center" Foreground="{StaticResource MainFontColor}" Text="Estimated Price" FontSize="{StaticResource BigFontSize}" Grid.ColumnSpan="5" Grid.Column="2" Grid.Row="0"/>
+            <Border Background="{StaticResource MainFontColor}"  Grid.ColumnSpan="5" Grid.Column="1" Grid.Row="1" Grid.RowSpan="4">
+                <Viewbox Stretch="Uniform">
+                    <TextBlock x:Name="EstimatedPriceTextBlock" VerticalAlignment="Center" TextAlignment="Center" Foreground="{StaticResource MainColor}" FontSize="{StaticResource HugeFontSize}" ></TextBlock>
+                </Viewbox>
+            </Border>
+            <Border Background="{StaticResource MainFontColor}"  Grid.ColumnSpan="2" Grid.Column="6" Grid.Row="1" Grid.RowSpan="4">
+                <Viewbox Stretch="Uniform">
+                    <TextBlock x:Name="CurrencyTextBlock" VerticalAlignment="Center" TextAlignment="Center" Foreground="{StaticResource MainColor}" FontSize="{StaticResource HugeFontSize}" ></TextBlock>
+                </Viewbox>
+            </Border>
+            <Border Background="{StaticResource MainFontColor}"  Grid.Column="2" Grid.Row="5"  Margin="10">
+                <Image x:Name="HouseTypeImage" />
+            </Border>
+            <Border Background="{StaticResource MainFontColor}"  Grid.Column="3" Grid.Row="5"  Margin="10">
+                <Viewbox>
+                    <TextBlock x:Name="AreaTextBlock" VerticalAlignment="Center" TextAlignment="Center" Foreground="{StaticResource MainColor}" FontSize="{StaticResource SmallFontSize}" ></TextBlock>
+                </Viewbox>
+            </Border>
+            <Border Background="{StaticResource MainFontColor}"  Grid.Column="4" Grid.Row="5"  Margin="10">
+                <Viewbox>
+                    <TextBlock x:Name="YearTextBlock" VerticalAlignment="Center" TextAlignment="Center" Foreground="{StaticResource MainColor}" FontSize="{StaticResource SmallFontSize}"></TextBlock>
+                </Viewbox>
+            </Border>
+            <Border Background="{StaticResource MainFontColor}"  Grid.Column="2" Grid.Row="6"  Margin="10">
+                <Viewbox>
+                    <TextBlock x:Name="PostalCodeTextBlock" VerticalAlignment="Center" TextAlignment="Center" Foreground="{StaticResource MainColor}" FontSize="{StaticResource SmallFontSize}" ></TextBlock>
+                </Viewbox>
+            </Border>
+            <Border Background="{StaticResource MainFontColor}"  Grid.Column="3" Grid.Row="6"  Margin="10" Grid.ColumnSpan="2">
+                <Viewbox>
+                    <TextBlock x:Name="AddressTextBlock" VerticalAlignment="Center" TextAlignment="Center" Foreground="{StaticResource MainColor}" FontSize="{StaticResource SmallFontSize}" ></TextBlock>
+                </Viewbox>
+            </Border>
+            <Border Background="{StaticResource MainFontColor}"  Grid.Column="2" Grid.Row="7"  Margin="10" Grid.ColumnSpan="2">
+                <Viewbox>
+                    <TextBlock x:Name="DateTextBlock" VerticalAlignment="Center" TextAlignment="Center" Foreground="{StaticResource MainColor}" FontSize="{StaticResource SmallFontSize}" ></TextBlock>
+                </Viewbox>
+            </Border>
+            <Border Background="{StaticResource MainFontColor}"  Grid.Column="4" Grid.Row="7"  Margin="10">
+                <Image x:Name="BillingPeriodImage" />
+            </Border>
+
+            <Button Click="Main_Click" Name="Main" Content="Main" Grid.Column="0" Grid.Row="9" Margin="5" Grid.ColumnSpan="3" VerticalAlignment="Stretch" HorizontalAlignment="Stretch" FontSize="{StaticResource MainFontSize}" Background="Orange">
+            </Button>
+            <Button Click="Agree_Click" Name="Pricing" Content="Agree" Grid.Column="5" Grid.Row="9" Grid.ColumnSpan="2" Margin="5" VerticalAlignment="Stretch" HorizontalAlignment="Stretch" FontSize="{StaticResource MainFontSize}" Background="{StaticResource OkButtonColor}">
+            </Button>
+            <Button Click="Modify_Click" Name="Reset" Content="Modify" Grid.Column="7" Grid.Row="9" Grid.ColumnSpan="2" Margin="5" VerticalAlignment="Stretch" HorizontalAlignment="Stretch" FontSize="{StaticResource MainFontSize}" Background="{StaticResource CancelButtonColor}">
+            </Button>
+
+        </Grid>
     </Grid>
 </Page>

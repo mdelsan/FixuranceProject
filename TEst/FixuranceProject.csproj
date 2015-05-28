@@ -7,8 +7,8 @@
     <ProjectGuid>{05E63FD0-F164-417D-9BB9-97C4A6F1F922}</ProjectGuid>
     <OutputType>AppContainerExe</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>TEst</RootNamespace>
-    <AssemblyName>TEst</AssemblyName>
+    <RootNamespace>FIXurance</RootNamespace>
+    <AssemblyName>FIXurance</AssemblyName>
     <DefaultLanguage>en-US</DefaultLanguage>
     <TargetPlatformVersion>8.1</TargetPlatformVersion>
     <MinimumVisualStudioVersion>12</MinimumVisualStudioVersion>
@@ -112,12 +112,18 @@
     <Compile Include="CallMeLater.xaml.cs">
       <DependentUpon>CallMeLater.xaml</DependentUpon>
     </Compile>
+    <Compile Include="CallMeLaterSaved.xaml.cs">
+      <DependentUpon>CallMeLaterSaved.xaml</DependentUpon>
+    </Compile>
     <Compile Include="Common\NavigationHelper.cs" />
     <Compile Include="Common\ObservableDictionary.cs" />
     <Compile Include="Common\RelayCommand.cs" />
     <Compile Include="Common\SuspensionManager.cs" />
     <Compile Include="HomeInsurance.xaml.cs">
       <DependentUpon>HomeInsurance.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="HomeInsuranceSaved.xaml.cs">
+      <DependentUpon>HomeInsuranceSaved.xaml</DependentUpon>
     </Compile>
     <Compile Include="InnerCircle.xaml.cs">
       <DependentUpon>InnerCircle.xaml</DependentUpon>
@@ -131,6 +137,7 @@
     <Compile Include="MainPage.xaml.cs">
       <DependentUpon>MainPage.xaml</DependentUpon>
     </Compile>
+    <Compile Include="Person.cs" />
     <Compile Include="priceResult.cs" />
     <Compile Include="pricing.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
@@ -146,6 +153,10 @@
     <None Include="TEst_TemporaryKey.pfx" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="Assets\Images\Icons\callme_vehicle.png" />
+    <Content Include="Assets\Images\Icons\callme_family.png" />
+    <Content Include="Assets\Images\Icons\callme_pet.png" />
+    <Content Include="Assets\Images\Icons\callme_health.png" />
     <Content Include="Assets\Images\Icons\agree_afternoon.png" />
     <Content Include="Assets\Images\Icons\agree_morning.png" />
     <Content Include="Assets\Images\Icons\agree_night.png" />
@@ -184,7 +195,15 @@
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
+    <Page Include="CallMeLaterSaved.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
     <Page Include="HomeInsurance.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="HomeInsuranceSaved.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>

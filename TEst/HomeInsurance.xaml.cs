@@ -41,14 +41,36 @@ namespace TEst
         private void GetPrice_Click(object sender, RoutedEventArgs e)
         {
             pricing myPrice = new pricing();
+            String formatDate;
             myPrice.address = addressTextBox.Text;
-            myPrice.houseType = "HOUSE";
+            if (HOUSE.IsChecked == true)
+                myPrice.houseType = "HOUSE";
+            else if (APARTMENT.IsChecked == true)
+                myPrice.houseType = "APARTMENT";
+            else if (ROWHOUSE.IsChecked == true)
+                myPrice.houseType = "ROWHOUSE";
+            else if (PAIRHOUSE.IsChecked == true)
+                myPrice.houseType = "PAIRHOUSE";
+            else if (SUMMERHOUSE.IsChecked == true)
+                myPrice.houseType = "SUMMERHOUSE";
+            else 
+                myPrice.houseType = "SAUNA";
+
             myPrice.area = areaSlider.Value.ToString();
             myPrice.buildYear = buildYearSlider.Value.ToString();
             myPrice.postalCode = postalCode.Text;
-            myPrice.insuranceStartDate = "12.12.2016";
-            myPrice.billingPeriod = "YEAR";
-            myPrice.currency = "EUR";
+            formatDate = startDate.Date.Day+"."+startDate.Date.Month+"."+startDate.Date.Year;
+            myPrice.insuranceStartDate = formatDate;
+            if (ONE.IsChecked == true)
+                myPrice.billingPeriod = "MONTH";
+            else if (QUARTER.IsChecked == true)
+                myPrice.billingPeriod = "QUARTER";
+            else
+                myPrice.billingPeriod = "YEAR";
+            if (EUR.IsChecked == true)
+                myPrice.currency = "EUR";
+            else
+                myPrice.currency = "USD";
             
             getPrice(myPrice);
             

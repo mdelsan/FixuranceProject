@@ -7,9 +7,9 @@
 
     For more information on package manifest files, see http://go.microsoft.com/fwlink/?LinkID=241727
   -->
-  <Identity Name="bbe554d4-82a5-4e11-9a47-2bf0c404c9d4" Publisher="CN=codecamp" Version="1.0.0.0" ProcessorArchitecture="neutral" />
+  <Identity Name="bbe554d4-82a5-4e11-9a47-2bf0c404c9d4" Publisher="CN=codecamp" Version="1.1.0.0" ProcessorArchitecture="neutral" />
   <Properties>
-    <DisplayName>TEst</DisplayName>
+    <DisplayName>Fixurance</DisplayName>
     <PublisherDisplayName>codecamp</PublisherDisplayName>
     <Logo>Assets\StoreLogo.png</Logo>
   </Properties>
@@ -21,8 +21,8 @@
     <Resource Language="EN-US" />
   </Resources>
   <Applications>
-    <Application Id="App" Executable="TEst.exe" EntryPoint="TEst.App">
-      <m2:VisualElements DisplayName="TEst" Square150x150Logo="Assets\Logo.png" Square30x30Logo="Assets\SmallLogo.png" Description="TEst" ForegroundText="light" BackgroundColor="#464646">
+    <Application Id="App" Executable="FIXurance.exe" EntryPoint="TEst.App">
+      <m2:VisualElements DisplayName="FIXurance" Square150x150Logo="Assets\Logo.png" Square30x30Logo="Assets\SmallLogo.png" Description="FIXurance APP" ForegroundText="light" BackgroundColor="#464646">
         <m2:SplashScreen Image="Assets\SplashScreen.png" />
       </m2:VisualElements>
     </Application>
