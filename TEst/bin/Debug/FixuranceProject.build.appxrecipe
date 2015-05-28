@@ -1,0 +1,134 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Machine>CODECAMP81</Machine>
+    <WindowsUser>codecamp</WindowsUser>
+    <TargetPlatformIdentifier>Windows</TargetPlatformIdentifier>
+    <SolutionConfiguration>Debug|AnyCPU</SolutionConfiguration>
+    <PackageArchitecture>neutral</PackageArchitecture>
+    <PackageIdentityName>bbe554d4-82a5-4e11-9a47-2bf0c404c9d4</PackageIdentityName>
+    <IntermediateOutputPath>C:\Users\codecamp\documents\visual studio 2013\Projects\TEst\TEst\obj\Debug\</IntermediateOutputPath>
+  </PropertyGroup>
+  <ItemGroup>
+    <AppXManifest Include="C:\Users\codecamp\documents\visual studio 2013\Projects\TEst\TEst\bin\Debug\AppxManifest.xml">
+      <PackagePath>AppxManifest.xml</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppXManifest>
+  </ItemGroup>
+  <ItemGroup>
+    <AppxPackagedFile Include="C:\Users\codecamp\documents\visual studio 2013\Projects\TEst\TEst\bin\Debug\TEst.exe">
+      <PackagePath>TEst.exe</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\codecamp\documents\visual studio 2013\Projects\TEst\packages\Newtonsoft.Json.6.0.8\lib\netcore45\Newtonsoft.Json.dll">
+      <PackagePath>Newtonsoft.Json.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\codecamp\documents\visual studio 2013\Projects\TEst\TEst\Assets\Images\Icons\agree_afternoon.png">
+      <PackagePath>Assets\Images\Icons\agree_afternoon.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\codecamp\documents\visual studio 2013\Projects\TEst\TEst\Assets\Images\Icons\agree_morning.png">
+      <PackagePath>Assets\Images\Icons\agree_morning.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\codecamp\documents\visual studio 2013\Projects\TEst\TEst\Assets\Images\Icons\agree_night.png">
+      <PackagePath>Assets\Images\Icons\agree_night.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\codecamp\documents\visual studio 2013\Projects\TEst\TEst\Assets\Images\Icons\agree_weekday.png">
+      <PackagePath>Assets\Images\Icons\agree_weekday.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\codecamp\documents\visual studio 2013\Projects\TEst\TEst\Assets\Images\Icons\agree_weekend.png">
+      <PackagePath>Assets\Images\Icons\agree_weekend.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\codecamp\documents\visual studio 2013\Projects\TEst\TEst\Assets\Images\Icons\insurance_1.png">
+      <PackagePath>Assets\Images\Icons\insurance_1.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\codecamp\documents\visual studio 2013\Projects\TEst\TEst\Assets\Images\Icons\insurance_12.png">
+      <PackagePath>Assets\Images\Icons\insurance_12.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\codecamp\documents\visual studio 2013\Projects\TEst\TEst\Assets\Images\Icons\insurance_4.png">
+      <PackagePath>Assets\Images\Icons\insurance_4.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\codecamp\documents\visual studio 2013\Projects\TEst\TEst\Assets\Images\Icons\insurance_apartment.png">
+      <PackagePath>Assets\Images\Icons\insurance_apartment.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\codecamp\documents\visual studio 2013\Projects\TEst\TEst\Assets\Images\Icons\insurance_dolar.png">
+      <PackagePath>Assets\Images\Icons\insurance_dolar.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\codecamp\documents\visual studio 2013\Projects\TEst\TEst\Assets\Images\Icons\insurance_euro.png">
+      <PackagePath>Assets\Images\Icons\insurance_euro.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\codecamp\documents\visual studio 2013\Projects\TEst\TEst\Assets\Images\Icons\insurance_house.png">
+      <PackagePath>Assets\Images\Icons\insurance_house.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\codecamp\documents\visual studio 2013\Projects\TEst\TEst\Assets\Images\Icons\insurance_pairHouse.png">
+      <PackagePath>Assets\Images\Icons\insurance_pairHouse.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\codecamp\documents\visual studio 2013\Projects\TEst\TEst\Assets\Images\Icons\insurance_rawHouse.png">
+      <PackagePath>Assets\Images\Icons\insurance_rawHouse.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\codecamp\documents\visual studio 2013\Projects\TEst\TEst\Assets\Images\Icons\insurance_sauna.png">
+      <PackagePath>Assets\Images\Icons\insurance_sauna.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\codecamp\documents\visual studio 2013\Projects\TEst\TEst\Assets\Images\Icons\insurance_summerHouse.png">
+      <PackagePath>Assets\Images\Icons\insurance_summerHouse.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\codecamp\documents\visual studio 2013\Projects\TEst\TEst\Assets\Images\logo.png">
+      <PackagePath>Assets\Images\logo.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\codecamp\documents\visual studio 2013\Projects\TEst\TEst\Assets\Images\main_callMeLater.png">
+      <PackagePath>Assets\Images\main_callMeLater.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\codecamp\documents\visual studio 2013\Projects\TEst\TEst\Assets\Images\main_home.png">
+      <PackagePath>Assets\Images\main_home.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\codecamp\documents\visual studio 2013\Projects\TEst\TEst\Assets\Images\main_innercircle.png">
+      <PackagePath>Assets\Images\main_innercircle.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\codecamp\documents\visual studio 2013\Projects\TEst\TEst\Assets\Logo.scale-100.png">
+      <PackagePath>Assets\Logo.scale-100.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\codecamp\documents\visual studio 2013\Projects\TEst\TEst\Assets\SmallLogo.scale-100.png">
+      <PackagePath>Assets\SmallLogo.scale-100.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\codecamp\documents\visual studio 2013\Projects\TEst\TEst\Assets\SplashScreen.scale-100.png">
+      <PackagePath>Assets\SplashScreen.scale-100.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\codecamp\documents\visual studio 2013\Projects\TEst\TEst\Assets\StoreLogo.scale-100.png">
+      <PackagePath>Assets\StoreLogo.scale-100.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\codecamp\documents\visual studio 2013\Projects\TEst\TEst\bin\Debug\App.xbf">
+      <PackagePath>App.xbf</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\codecamp\documents\visual studio 2013\Projects\TEst\TEst\bin\Debug\BasicPage1.xbf">
+      <PackagePath>BasicPage1.xbf</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\codecamp\documents\visual studio 2013\Projects\TEst\TEst\bin\Debug\CallMeLater.xbf">
+      <PackagePath>CallMeLater.xbf</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\codecamp\documents\visual studio 2013\Projects\TEst\TEst\bin\Debug\HomeInsurance.xbf">
+      <PackagePath>HomeInsurance.xbf</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\codecamp\documents\visual studio 2013\Projects\TEst\TEst\bin\Debug\InnerCircle.xbf">
+      <PackagePath>InnerCircle.xbf</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\codecamp\documents\visual studio 2013\Projects\TEst\TEst\bin\Debug\InsuranceContact.xbf">
+      <PackagePath>InsuranceContact.xbf</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\codecamp\documents\visual studio 2013\Projects\TEst\TEst\bin\Debug\InsurancePricing.xbf">
+      <PackagePath>InsurancePricing.xbf</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\codecamp\documents\visual studio 2013\Projects\TEst\TEst\bin\Debug\MainPage.xbf">
+      <PackagePath>MainPage.xbf</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\codecamp\documents\visual studio 2013\Projects\TEst\TEst\bin\Debug\TEst.xr.xml">
+      <PackagePath>TEst.xr.xml</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\codecamp\documents\visual studio 2013\Projects\TEst\TEst\bin\Debug\resources.pri">
+      <PackagePath>resources.pri</PackagePath>
+    </AppxPackagedFile>
+  </ItemGroup>
+  <ItemGroup>
+  </ItemGroup>
+</Project>

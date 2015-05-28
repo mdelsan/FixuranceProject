@@ -1,0 +1,129 @@
+﻿<Page
+    x:Class="TEst.HomeInsurance"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:TEst"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d">
+
+    <Grid Background="{StaticResource MainColor}">
+        <Grid.RowDefinitions>
+            <RowDefinition Height="15*"></RowDefinition>
+            <RowDefinition Height="85*"></RowDefinition>
+        </Grid.RowDefinitions>
+        <Image Source="/Assets/Images/logo.png" Grid.Column="0" VerticalAlignment="Top" HorizontalAlignment="Left" Margin="10,10,0,0" Grid.ColumnSpan="2"></Image>
+        <TextBlock TextWrapping="Wrap" Text="Home Insurance" FontSize="{StaticResource BigFontSize}" Foreground="{StaticResource MainFontColor}" FontFamily="Arial" HorizontalAlignment="Right" VerticalAlignment="Center"/>
+        <Grid Grid.Row="1">
+
+            <Grid.RowDefinitions>
+                <RowDefinition Height="*"/>
+                <RowDefinition Height="*"/>
+                <RowDefinition Height="*"/>
+                <RowDefinition Height="*"/>
+                <RowDefinition Height="*"/>
+                <RowDefinition Height="*"/>
+                <RowDefinition Height="*"/>
+                <RowDefinition Height="*"/>
+                <RowDefinition Height="*"/>
+                <RowDefinition Height="*"/>
+
+            </Grid.RowDefinitions>
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="20*"/>
+                <ColumnDefinition Width="5*"/>
+                <ColumnDefinition Width="5*"/>
+                <ColumnDefinition Width="5*"/>
+                <ColumnDefinition Width="5*"/>
+                <ColumnDefinition Width="5*"/>
+                <ColumnDefinition Width="5*"/>
+                <ColumnDefinition Width="5*"/>
+                <ColumnDefinition Width="5*"/>
+            </Grid.ColumnDefinitions>
+            <TextBlock VerticalAlignment="Center" TextAlignment="Right" Foreground="{StaticResource MainFontColor}" Text="House Type:" FontSize="{StaticResource MainFontSize}"/>
+            <TextBlock VerticalAlignment="Center" TextAlignment="Right" Foreground="{StaticResource MainFontColor}" Text="Area m²:" Grid.Row="1" FontSize="{StaticResource MainFontSize}"/>
+            <Slider Name="areaSlider" Maximum="500" Minimum="0" VerticalAlignment="Center" Margin="10" Grid.Row="1" Grid.Column="1" Grid.ColumnSpan="5" Background="Silver" TickPlacement="Inline"/>
+            <TextBlock VerticalAlignment="Center" TextAlignment="Right" Foreground="{StaticResource MainFontColor}" Grid.Row="2" Grid.Column="0" HorizontalAlignment="right" TextWrapping="Wrap" FontSize="{StaticResource MainFontSize}" Text="Built Year :"/>
+            <Slider Name="buildYearSlider" Maximum="2015" Minimum="1700" VerticalAlignment="Center" Margin="10" Grid.Row="2" Grid.Column="1" Grid.ColumnSpan="5" Background="Silver" />
+            <TextBlock VerticalAlignment="Center" TextAlignment="Right" Foreground="{StaticResource MainFontColor}" Grid.Row="3" Grid.Column="0" HorizontalAlignment="right"  TextWrapping="Wrap" FontSize="{StaticResource MainFontSize}" Text="Address :"/>
+            <TextBox Name="addressTextBox" VerticalAlignment="Center" TextAlignment="Right" Foreground="{StaticResource MainFontColor}" Grid.Row="3" Grid.Column="1" Grid.ColumnSpan="2" HorizontalAlignment="stretch" Height="60" TextWrapping="Wrap" Text="address area" Background="#FF1BBB7A"/>
+            <TextBlock VerticalAlignment="Center" TextAlignment="Right" Foreground="{StaticResource MainFontColor}" Grid.Row="4" Grid.Column="0" HorizontalAlignment="right" FontSize="{StaticResource MainFontSize}" Text="Postal Code :"/>
+            <TextBox Name="postalCode" VerticalAlignment="Center" TextAlignment="Right" Foreground="{StaticResource MainFontColor}" Grid.Row="4" Grid.Column="1" Height="28" TextWrapping="Wrap" Text="PostalArea" Background="#FF1BBB7A"/>
+            <TextBlock VerticalAlignment="Center" TextAlignment="Right" Foreground="{StaticResource MainFontColor}" Grid.Row="5" Grid.Column="0" HorizontalAlignment="right"  TextWrapping="Wrap" FontSize="{StaticResource MainFontSize}" Text="Start Date :"/>
+            <DatePicker Name="datePicker" VerticalAlignment="Center" Grid.Row="5" Grid.Column="1" Grid.ColumnSpan="3" HorizontalAlignment="left" Height="52" Width="262"/>
+            <TextBlock VerticalAlignment="Center" TextAlignment="Right" Foreground="{StaticResource MainFontColor}" Grid.Row="6" Grid.Column="0" HorizontalAlignment="right" FontSize="{StaticResource MainFontSize}" Text="Billing Period :"/>
+            <TextBlock VerticalAlignment="Center" TextAlignment="Right" Foreground="{StaticResource MainFontColor}" Grid.Row="7" Grid.Column="0" HorizontalAlignment="right" TextWrapping="Wrap" FontSize="{StaticResource MainFontSize}" Text="Currency :"/>
+            <RadioButton x:Name="house" GroupName="typeOfHouse" Grid.Column="1" Grid.Row="0" HorizontalAlignment="Left">
+                <ToggleButton>
+                    <Image Source="/Assets/Images/Icons/insurance_house.png"/>
+                </ToggleButton>
+            </RadioButton>
+            <RadioButton x:Name="apartment" GroupName="typeOfHouse" Grid.Column="2" Grid.Row="0" HorizontalAlignment="Left" >
+               
+                <RadioButton.Template>                    
+                    <ControlTemplate>
+                        <Grid>
+                            <Image Source="/Assets/Images/Icons/insurance_apartment.png"/>
+                        </Grid>                        
+                    </ControlTemplate>
+                </RadioButton.Template>
+                <!--<ToggleButton>
+                    <Image Source="/Assets/Images/Icons/insurance_apartment.png"/>
+                </ToggleButton>-->
+            </RadioButton>
+            <RadioButton x:Name="pairHouse" GroupName="typeOfHouse" Grid.Column="3" Grid.Row="0" HorizontalAlignment="Left" >
+                <ToggleButton>
+                    <Image Source="/Assets/Images/Icons/insurance_pairHouse.png"/>
+                </ToggleButton>
+            </RadioButton>
+            <RadioButton x:Name="rawHouse" GroupName="typeOfHouse" Grid.Column="4" Grid.Row="0" HorizontalAlignment="Left" >
+                <ToggleButton>
+                    <Image Source="/Assets/Images/Icons/insurance_rawHouse.png"/>
+                </ToggleButton>
+            </RadioButton>
+            <RadioButton x:Name="sauna" GroupName="typeOfHouse" Grid.Column="5" Grid.Row="0" HorizontalAlignment="Left" >
+                <ToggleButton>
+                    <Image Source="/Assets/Images/Icons/insurance_sauna.png"/>
+                </ToggleButton>
+            </RadioButton>
+            <RadioButton x:Name="summerHouse" GroupName="typeOfHouse" Grid.Column="6" Grid.Row="0" HorizontalAlignment="Left" >
+                <ToggleButton>
+                    <Image Source="/Assets/Images/Icons/insurance_summerHouse.png"/>
+                </ToggleButton>
+            </RadioButton>
+            <RadioButton x:Name="one" GroupName="billingPeriod" Grid.Column="1" Grid.Row="6" HorizontalAlignment="Left" >
+                <ToggleButton>
+                    <Image Source="/Assets/Images/Icons/insurance_1.png"/>
+                </ToggleButton>
+            </RadioButton>
+            <RadioButton x:Name="four" GroupName="billingPeriod" Grid.Column="2" Grid.Row="6" HorizontalAlignment="Left" >
+                <ToggleButton>
+                    <Image Source="/Assets/Images/Icons/insurance_4.png"/>
+                </ToggleButton>
+            </RadioButton>
+            <RadioButton x:Name="twelve" GroupName="billingPeriod" Grid.Column="3" Grid.Row="6" HorizontalAlignment="Left" >
+                <ToggleButton>
+                    <Image Source="/Assets/Images/Icons/insurance_12.png"/>
+                </ToggleButton>
+            </RadioButton>
+            <RadioButton x:Name="euro" GroupName="currency" Grid.Column="1" Grid.Row="7" HorizontalAlignment="Left" >
+                <ToggleButton>
+                    <Image Source="/Assets/Images/Icons/insurance_euro.png"/>
+                </ToggleButton>
+            </RadioButton>
+            <RadioButton x:Name="dolar" GroupName="currency" Grid.Column="2" Grid.Row="7" HorizontalAlignment="Left" >
+                <ToggleButton>
+                    <Image Source="/Assets/Images/Icons/insurance_dolar.png"/>
+                </ToggleButton>
+            </RadioButton>
+            
+            <Button x:ConnectionId='1'                    Name="Main" Content="Main" Grid.Column="0" Grid.Row="9" Margin="5" VerticalAlignment="Stretch" HorizontalAlignment="Stretch" FontSize="{StaticResource MainFontSize}" Background="Orange">
+            </Button>
+            <Button x:ConnectionId='2'                        Name="Pricing" Content="Get Price" Grid.Column="5" Grid.Row="9" Grid.ColumnSpan="2" Margin="5" VerticalAlignment="Stretch" HorizontalAlignment="Stretch" FontSize="{StaticResource MainFontSize}" Background="{StaticResource OkButtonColor}">
+            </Button>
+            <Button x:ConnectionId='3'                     Name="Reset" Content="Reset" Grid.Column="7" Grid.Row="9" Grid.ColumnSpan="2" Margin="5" VerticalAlignment="Stretch" HorizontalAlignment="Stretch" FontSize="{StaticResource MainFontSize}" Background="{StaticResource CancelButtonColor}">
+            </Button>
+        </Grid>
+    </Grid>
+</Page>
+
