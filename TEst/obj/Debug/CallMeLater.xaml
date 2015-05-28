@@ -41,14 +41,14 @@
                 <ColumnDefinition Width="5*"/>
             </Grid.ColumnDefinitions>
             <TextBlock VerticalAlignment="Center" TextAlignment="Right" Foreground="{StaticResource MainFontColor}" Text="First Name" Grid.Row="1" FontSize="{StaticResource MainFontSize}"/>
-            <TextBox Name="FirstName" VerticalAlignment="Center" TextAlignment="Right" Foreground="{StaticResource MainFontColor}" Grid.Row="1" Grid.Column="1" Grid.ColumnSpan="2" Height="28" TextWrapping="Wrap" Background="#FF1BBB7A"/>
+            <TextBox Name="FirstName" VerticalAlignment="Center" TextAlignment="Left" Foreground="{StaticResource MainFontColor}" Grid.Row="1" Grid.Column="1" Grid.ColumnSpan="2" Height="28" TextWrapping="Wrap" Background="#FF1BBB7A"/>
             <TextBlock Text="Last Name" VerticalAlignment="Center" TextAlignment="Right" Foreground="{StaticResource MainFontColor}" Grid.Row="2" Grid.Column="0" HorizontalAlignment="right" TextWrapping="Wrap" FontSize="{StaticResource MainFontSize}">
             </TextBlock>
-            <TextBox Name="LastName" VerticalAlignment="Center" TextAlignment="Right" Foreground="{StaticResource MainFontColor}" Grid.Row="2" Grid.Column="1" Grid.ColumnSpan="2" Height="28" TextWrapping="Wrap" Background="#FF1BBB7A"/>
+            <TextBox Name="LastName" VerticalAlignment="Center" TextAlignment="Left" Foreground="{StaticResource MainFontColor}" Grid.Row="2" Grid.Column="1" Grid.ColumnSpan="2" Height="28" TextWrapping="Wrap" Background="#FF1BBB7A"/>
             <TextBlock VerticalAlignment="Center" TextAlignment="Right" Foreground="{StaticResource MainFontColor}" Grid.Row="3" Grid.Column="0" HorizontalAlignment="right"  TextWrapping="Wrap" FontSize="{StaticResource MainFontSize}" Text="Email"/>
-            <TextBox Name="Email" VerticalAlignment="Center" TextAlignment="Right" Foreground="{StaticResource MainFontColor}" Grid.Row="3" Grid.Column="1" Grid.ColumnSpan="2" Height="28" TextWrapping="Wrap" Background="#FF1BBB7A"/>
+            <TextBox Name="Email" VerticalAlignment="Center" TextAlignment="Left" Foreground="{StaticResource MainFontColor}" Grid.Row="3" Grid.Column="1" Grid.ColumnSpan="2" Height="28" TextWrapping="Wrap" Background="#FF1BBB7A"/>
             <TextBlock VerticalAlignment="Center" TextAlignment="Right" Foreground="{StaticResource MainFontColor}" Grid.Row="4" Grid.Column="0" HorizontalAlignment="right" FontSize="{StaticResource MainFontSize}" Text="Phone"/>
-            <TextBox Name="Phone" VerticalAlignment="Center" TextAlignment="Right" Foreground="{StaticResource MainFontColor}" Grid.Row="4" Grid.Column="1" Grid.ColumnSpan="2" Height="28" TextWrapping="Wrap" Background="#FF1BBB7A"/>
+            <TextBox Name="Phone" VerticalAlignment="Center" TextAlignment="Left" Foreground="{StaticResource MainFontColor}" Grid.Row="4" Grid.Column="1" Grid.ColumnSpan="2" Height="28" TextWrapping="Wrap" Background="#FF1BBB7A"/>
             <TextBlock VerticalAlignment="Center" TextAlignment="Right" Foreground="{StaticResource MainFontColor}" Grid.Row="5" Grid.Column="0" HorizontalAlignment="right" FontSize="{StaticResource MainFontSize}" Text="Contact Hour"/>
 
             <RadioButton x:Name="MORNING" GroupName="ContactHour" Grid.Column="1" Grid.Row="5" HorizontalAlignment="Left" IsChecked="True" >

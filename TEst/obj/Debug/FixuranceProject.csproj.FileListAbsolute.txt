@@ -138,3 +138,4 @@ C:\Users\codecamp\Desktop\FixuranceProject\TEst\bin\Debug\FIXurance.exe
 C:\Users\codecamp\Desktop\FixuranceProject\TEst\bin\Debug\FIXurance.pdb
 C:\Users\codecamp\Desktop\FixuranceProject\TEst\obj\Debug\FIXurance.exe
 C:\Users\codecamp\Desktop\FixuranceProject\TEst\obj\Debug\FIXurance.pdb
+C:\Users\codecamp\Desktop\FixuranceProject\TEst\obj\Debug\FixuranceProject.csprojResolveAssemblyReference.cache

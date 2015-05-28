@@ -68,7 +68,7 @@ namespace TEst
             }
 
             if (client.insurances.home) { 
-                Windows.UI.Xaml.Media.Imaging.BitmapImage HomeBitmap = new Windows.UI.Xaml.Media.Imaging.BitmapImage(new Uri("ms-appx:///Assets/Images/Icons/insurance_home.png"));
+                Windows.UI.Xaml.Media.Imaging.BitmapImage HomeBitmap = new Windows.UI.Xaml.Media.Imaging.BitmapImage(new Uri("ms-appx:///Assets/Images/Icons/insurance_house.png"));
                 InterestedInImage1.Source = HomeBitmap;
             }
             if (client.insurances.family)
