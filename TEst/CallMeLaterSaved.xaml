@@ -1,0 +1,81 @@
+﻿<Page
+    x:Class="TEst.CallMeLaterSaved"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:TEst"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d">
+
+    <Grid Background="{StaticResource MainColor}">
+        <Grid.RowDefinitions>
+            <RowDefinition Height="15*"></RowDefinition>
+            <RowDefinition Height="85*"></RowDefinition>
+        </Grid.RowDefinitions>
+        <Image Source="/Assets/Images/logo.png" Grid.Column="0" VerticalAlignment="Top" HorizontalAlignment="Left" Margin="10,10,0,0" Grid.ColumnSpan="2"></Image>
+        <TextBlock TextWrapping="Wrap" Text="Home Insurance" FontSize="{StaticResource BigFontSize}" Foreground="{StaticResource MainFontColor}" FontFamily="Arial" HorizontalAlignment="Right" VerticalAlignment="Center"/>
+        <Grid Grid.Row="1">
+
+            <Grid.RowDefinitions>
+                <RowDefinition Height="*"/>
+                <RowDefinition Height="*"/>
+                <RowDefinition Height="*"/>
+                <RowDefinition Height="*"/>
+                <RowDefinition Height="*"/>
+                <RowDefinition Height="*"/>
+                <RowDefinition Height="*"/>
+                <RowDefinition Height="*"/>
+                <RowDefinition Height="*"/>
+                <RowDefinition Height="*"/>
+
+            </Grid.RowDefinitions>
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="*"/>
+                <ColumnDefinition Width="*"/>
+                <ColumnDefinition Width="*"/>
+                <ColumnDefinition Width="*"/>
+                <ColumnDefinition Width="*"/>
+                <ColumnDefinition Width="*"/>
+                <ColumnDefinition Width="*"/>
+                <ColumnDefinition Width="*"/>
+                <ColumnDefinition Width="*"/>
+            </Grid.ColumnDefinitions>
+            <TextBlock Name="ClientName" VerticalAlignment="Center" TextAlignment="Center" Foreground="{StaticResource MainFontColor}" Grid.Row="1" Grid.Column="1" Grid.RowSpan="2" FontSize="{StaticResource BigFontSize}" Grid.ColumnSpan="7"/>
+            <TextBlock Text="Here are your details" VerticalAlignment="Center" TextAlignment="Center" Foreground="{StaticResource MainFontColor}" Grid.Row="3" Grid.Column="1" Grid.RowSpan="1" FontSize="{StaticResource BigFontSize}" Grid.ColumnSpan="7"/>
+            <Border Background="{StaticResource MainFontColor}"  Grid.Column="2" Grid.Row="5"  Margin="10" Grid.ColumnSpan="2">
+                <Viewbox>
+                    <TextBlock x:Name="PhoneTextBlock" VerticalAlignment="Center" TextAlignment="Center" Foreground="{StaticResource MainColor}" FontSize="{StaticResource SmallFontSize}" ></TextBlock>
+                </Viewbox>
+            </Border>
+            <Border Background="{StaticResource MainFontColor}"  Grid.Column="5" Grid.Row="5"  Margin="10" Grid.ColumnSpan="2">
+                <Viewbox>
+                    <TextBlock x:Name="EmailTextBlock" VerticalAlignment="Center" TextAlignment="Center" Foreground="{StaticResource MainColor}" FontSize="{StaticResource SmallFontSize}" ></TextBlock>
+                </Viewbox>
+            </Border>
+            <Border Background="{StaticResource MainFontColor}"  Grid.Column="3" Grid.Row="6"  Margin="10">
+                <Image x:Name="ContactHourImage" />
+            </Border>
+            <Border Background="{StaticResource MainFontColor}"  Grid.Column="5" Grid.Row="6"  Margin="10">
+                <Image x:Name="PreferredTimeImage" />
+            </Border>
+            <Border Background="{StaticResource MainFontColor}"  Grid.Column="2" Grid.Row="7"  Margin="10">
+                <Image x:Name="InterestedInImage1" />
+            </Border>
+            <Border Background="{StaticResource MainFontColor}"  Grid.Column="3" Grid.Row="7"  Margin="10">
+                <Image x:Name="InterestedInImage2" />
+            </Border>
+            <Border Background="{StaticResource MainFontColor}"  Grid.Column="4" Grid.Row="7"  Margin="10">
+                <Image x:Name="InterestedInImage3" />
+            </Border>
+            <Border Background="{StaticResource MainFontColor}"  Grid.Column="5" Grid.Row="7"  Margin="10">
+                <Image x:Name="InterestedInImage4" />
+            </Border>
+            <Border Background="{StaticResource MainFontColor}"  Grid.Column="6" Grid.Row="7"  Margin="10">
+                <Image x:Name="InterestedInImage5" />
+            </Border>
+
+            <Button Click="Main_Click" Name="Main" Content="Main" Grid.Column="0" Grid.ColumnSpan="3" Grid.Row="9" Margin="5" VerticalAlignment="Stretch" HorizontalAlignment="Stretch" FontSize="{StaticResource MainFontSize}" Background="Orange">
+            </Button>
+        </Grid>
+    </Grid>
+</Page>
