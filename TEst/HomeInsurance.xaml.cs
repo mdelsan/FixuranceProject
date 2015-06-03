@@ -16,8 +16,7 @@ using System.Runtime.Serialization;
 using System.Runtime.Serialization.Json;
 using System.Net.Http;
 using System.Text;
-
-
+using FIXurance.CustomUserControls;
 
 // The Blank Page item template is documented at http://go.microsoft.com/fwlink/?LinkId=234238
 
@@ -53,7 +52,7 @@ namespace TEst
                 myPrice.houseType = "PAIRHOUSE";
             else if (SUMMERHOUSE.IsChecked == true)
                 myPrice.houseType = "SUMMERHOUSE";
-            else 
+            else
                 myPrice.houseType = "SAUNA";
 
             myPrice.area = areaSlider.Value.ToString();

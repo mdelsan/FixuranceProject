@@ -1,6 +1,6 @@
 <XamlCompilerSaveState>
   <ReferenceAssemblyList>
-    <LocalAssembly PathName="c:\users\codecamp\desktop\fixuranceproject\test\obj\debug\intermediatexaml\test.exe" HashGuid="e882c068-40ee-225b-9d44-68639f37646b" />
-    <ReferenceAssembly PathName="c:\users\codecamp\desktop\fixuranceproject\packages\newtonsoft.json.6.0.8\lib\netcore45\newtonsoft.json.dll" HashGuid="fd3dfcab-cf69-c796-78a2-2423dadb814b" />
+    <LocalAssembly PathName="c:\users\alejandro antillon\documents\visual studio 2013\projects\fixurance\test\obj\debug\intermediatexaml\fixurance.exe" HashGuid="0abc6235-20cf-d9e2-1b6b-de58436b5862" />
+    <ReferenceAssembly PathName="c:\users\alejandro antillon\documents\visual studio 2013\projects\fixurance\packages\newtonsoft.json.6.0.8\lib\netcore45\newtonsoft.json.dll" HashGuid="fd3dfcab-cf69-c796-78a2-2423dadb814b" />
   </ReferenceAssemblyList>
 </XamlCompilerSaveState>

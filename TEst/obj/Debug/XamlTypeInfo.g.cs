@@ -124,7 +124,7 @@ namespace FIXurance.FixuranceProject_XamlTypeInfo
 
         private void InitTypeTables()
         {
-            _typeNameTable = new string[16];
+            _typeNameTable = new string[20];
             _typeNameTable[0] = "TEst.BasicPage1";
             _typeNameTable[1] = "Windows.UI.Xaml.Controls.Page";
             _typeNameTable[2] = "Windows.UI.Xaml.Controls.UserControl";
@@ -135,14 +135,18 @@ namespace FIXurance.FixuranceProject_XamlTypeInfo
             _typeNameTable[7] = "Windows.UI.Xaml.DependencyObject";
             _typeNameTable[8] = "TEst.CallMeLater";
             _typeNameTable[9] = "TEst.CallMeLaterSaved";
-            _typeNameTable[10] = "TEst.HomeInsurance";
-            _typeNameTable[11] = "TEst.HomeInsuranceSaved";
-            _typeNameTable[12] = "TEst.InnerCircle";
-            _typeNameTable[13] = "TEst.InsuranceContact";
-            _typeNameTable[14] = "TEst.InsurancePricing";
-            _typeNameTable[15] = "TEst.MainPage";
+            _typeNameTable[10] = "FIXurance.CustomUserControls.ImageRadioButton";
+            _typeNameTable[11] = "Windows.UI.Xaml.Thickness";
+            _typeNameTable[12] = "Windows.UI.Xaml.Media.SolidColorBrush";
+            _typeNameTable[13] = "Boolean";
+            _typeNameTable[14] = "TEst.HomeInsurance";
+            _typeNameTable[15] = "TEst.HomeInsuranceSaved";
+            _typeNameTable[16] = "TEst.InnerCircle";
+            _typeNameTable[17] = "TEst.InsuranceContact";
+            _typeNameTable[18] = "TEst.InsurancePricing";
+            _typeNameTable[19] = "TEst.MainPage";
 
-            _typeTable = new global::System.Type[16];
+            _typeTable = new global::System.Type[20];
             _typeTable[0] = typeof(global::TEst.BasicPage1);
             _typeTable[1] = typeof(global::Windows.UI.Xaml.Controls.Page);
             _typeTable[2] = typeof(global::Windows.UI.Xaml.Controls.UserControl);
@@ -153,12 +157,16 @@ namespace FIXurance.FixuranceProject_XamlTypeInfo
             _typeTable[7] = typeof(global::Windows.UI.Xaml.DependencyObject);
             _typeTable[8] = typeof(global::TEst.CallMeLater);
             _typeTable[9] = typeof(global::TEst.CallMeLaterSaved);
-            _typeTable[10] = typeof(global::TEst.HomeInsurance);
-            _typeTable[11] = typeof(global::TEst.HomeInsuranceSaved);
-            _typeTable[12] = typeof(global::TEst.InnerCircle);
-            _typeTable[13] = typeof(global::TEst.InsuranceContact);
-            _typeTable[14] = typeof(global::TEst.InsurancePricing);
-            _typeTable[15] = typeof(global::TEst.MainPage);
+            _typeTable[10] = typeof(global::FIXurance.CustomUserControls.ImageRadioButton);
+            _typeTable[11] = typeof(global::Windows.UI.Xaml.Thickness);
+            _typeTable[12] = typeof(global::Windows.UI.Xaml.Media.SolidColorBrush);
+            _typeTable[13] = typeof(global::System.Boolean);
+            _typeTable[14] = typeof(global::TEst.HomeInsurance);
+            _typeTable[15] = typeof(global::TEst.HomeInsuranceSaved);
+            _typeTable[16] = typeof(global::TEst.InnerCircle);
+            _typeTable[17] = typeof(global::TEst.InsuranceContact);
+            _typeTable[18] = typeof(global::TEst.InsurancePricing);
+            _typeTable[19] = typeof(global::TEst.MainPage);
         }
 
         private int LookupTypeIndexByName(string typeName)
@@ -197,12 +205,13 @@ namespace FIXurance.FixuranceProject_XamlTypeInfo
         private object Activate_3_ObservableDictionary() { return new global::TEst.Common.ObservableDictionary(); }
         private object Activate_8_CallMeLater() { return new global::TEst.CallMeLater(); }
         private object Activate_9_CallMeLaterSaved() { return new global::TEst.CallMeLaterSaved(); }
-        private object Activate_10_HomeInsurance() { return new global::TEst.HomeInsurance(); }
-        private object Activate_11_HomeInsuranceSaved() { return new global::TEst.HomeInsuranceSaved(); }
-        private object Activate_12_InnerCircle() { return new global::TEst.InnerCircle(); }
-        private object Activate_13_InsuranceContact() { return new global::TEst.InsuranceContact(); }
-        private object Activate_14_InsurancePricing() { return new global::TEst.InsurancePricing(); }
-        private object Activate_15_MainPage() { return new global::TEst.MainPage(); }
+        private object Activate_10_ImageRadioButton() { return new global::FIXurance.CustomUserControls.ImageRadioButton(); }
+        private object Activate_14_HomeInsurance() { return new global::TEst.HomeInsurance(); }
+        private object Activate_15_HomeInsuranceSaved() { return new global::TEst.HomeInsuranceSaved(); }
+        private object Activate_16_InnerCircle() { return new global::TEst.InnerCircle(); }
+        private object Activate_17_InsuranceContact() { return new global::TEst.InsuranceContact(); }
+        private object Activate_18_InsurancePricing() { return new global::TEst.InsurancePricing(); }
+        private object Activate_19_MainPage() { return new global::TEst.MainPage(); }
         private void MapAdd_3_ObservableDictionary(object instance, object key, object item)
         {
             var collection = (global::System.Collections.Generic.IDictionary<global::System.String, global::System.Object>)instance;
@@ -279,44 +288,68 @@ namespace FIXurance.FixuranceProject_XamlTypeInfo
                 xamlType = userType;
                 break;
 
-            case 10:   //  TEst.HomeInsurance
-                userType = new global::FIXurance.FixuranceProject_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Windows.UI.Xaml.Controls.Page"));
-                userType.Activator = Activate_10_HomeInsurance;
+            case 10:   //  FIXurance.CustomUserControls.ImageRadioButton
+                userType = new global::FIXurance.FixuranceProject_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Windows.UI.Xaml.Controls.UserControl"));
+                userType.Activator = Activate_10_ImageRadioButton;
+                userType.AddMemberName("CustomBorderThickness");
+                userType.AddMemberName("CustomBorderBrush");
+                userType.AddMemberName("ImageSource");
+                userType.AddMemberName("GroupName");
+                userType.AddMemberName("IsChecked");
                 userType.SetIsLocalType();
                 xamlType = userType;
                 break;
 
-            case 11:   //  TEst.HomeInsuranceSaved
+            case 11:   //  Windows.UI.Xaml.Thickness
+                xamlType = new global::FIXurance.FixuranceProject_XamlTypeInfo.XamlSystemBaseType(typeName, type);
+                break;
+
+            case 12:   //  Windows.UI.Xaml.Media.SolidColorBrush
+                xamlType = new global::FIXurance.FixuranceProject_XamlTypeInfo.XamlSystemBaseType(typeName, type);
+                break;
+
+            case 13:   //  Boolean
+                xamlType = new global::FIXurance.FixuranceProject_XamlTypeInfo.XamlSystemBaseType(typeName, type);
+                break;
+
+            case 14:   //  TEst.HomeInsurance
                 userType = new global::FIXurance.FixuranceProject_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Windows.UI.Xaml.Controls.Page"));
-                userType.Activator = Activate_11_HomeInsuranceSaved;
+                userType.Activator = Activate_14_HomeInsurance;
                 userType.SetIsLocalType();
                 xamlType = userType;
                 break;
 
-            case 12:   //  TEst.InnerCircle
+            case 15:   //  TEst.HomeInsuranceSaved
                 userType = new global::FIXurance.FixuranceProject_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Windows.UI.Xaml.Controls.Page"));
-                userType.Activator = Activate_12_InnerCircle;
+                userType.Activator = Activate_15_HomeInsuranceSaved;
                 userType.SetIsLocalType();
                 xamlType = userType;
                 break;
 
-            case 13:   //  TEst.InsuranceContact
+            case 16:   //  TEst.InnerCircle
                 userType = new global::FIXurance.FixuranceProject_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Windows.UI.Xaml.Controls.Page"));
-                userType.Activator = Activate_13_InsuranceContact;
+                userType.Activator = Activate_16_InnerCircle;
                 userType.SetIsLocalType();
                 xamlType = userType;
                 break;
 
-            case 14:   //  TEst.InsurancePricing
+            case 17:   //  TEst.InsuranceContact
                 userType = new global::FIXurance.FixuranceProject_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Windows.UI.Xaml.Controls.Page"));
-                userType.Activator = Activate_14_InsurancePricing;
+                userType.Activator = Activate_17_InsuranceContact;
                 userType.SetIsLocalType();
                 xamlType = userType;
                 break;
 
-            case 15:   //  TEst.MainPage
+            case 18:   //  TEst.InsurancePricing
                 userType = new global::FIXurance.FixuranceProject_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Windows.UI.Xaml.Controls.Page"));
-                userType.Activator = Activate_15_MainPage;
+                userType.Activator = Activate_18_InsurancePricing;
+                userType.SetIsLocalType();
+                xamlType = userType;
+                break;
+
+            case 19:   //  TEst.MainPage
+                userType = new global::FIXurance.FixuranceProject_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Windows.UI.Xaml.Controls.Page"));
+                userType.Activator = Activate_19_MainPage;
                 userType.SetIsLocalType();
                 xamlType = userType;
                 break;
@@ -334,6 +367,56 @@ namespace FIXurance.FixuranceProject_XamlTypeInfo
         {
             var that = (global::TEst.BasicPage1)instance;
             return that.NavigationHelper;
+        }
+        private object get_2_ImageRadioButton_CustomBorderThickness(object instance)
+        {
+            var that = (global::FIXurance.CustomUserControls.ImageRadioButton)instance;
+            return that.CustomBorderThickness;
+        }
+        private void set_2_ImageRadioButton_CustomBorderThickness(object instance, object Value)
+        {
+            var that = (global::FIXurance.CustomUserControls.ImageRadioButton)instance;
+            that.CustomBorderThickness = (global::Windows.UI.Xaml.Thickness)Value;
+        }
+        private object get_3_ImageRadioButton_CustomBorderBrush(object instance)
+        {
+            var that = (global::FIXurance.CustomUserControls.ImageRadioButton)instance;
+            return that.CustomBorderBrush;
+        }
+        private void set_3_ImageRadioButton_CustomBorderBrush(object instance, object Value)
+        {
+            var that = (global::FIXurance.CustomUserControls.ImageRadioButton)instance;
+            that.CustomBorderBrush = (global::Windows.UI.Xaml.Media.SolidColorBrush)Value;
+        }
+        private object get_4_ImageRadioButton_ImageSource(object instance)
+        {
+            var that = (global::FIXurance.CustomUserControls.ImageRadioButton)instance;
+            return that.ImageSource;
+        }
+        private void set_4_ImageRadioButton_ImageSource(object instance, object Value)
+        {
+            var that = (global::FIXurance.CustomUserControls.ImageRadioButton)instance;
+            that.ImageSource = (global::System.String)Value;
+        }
+        private object get_5_ImageRadioButton_GroupName(object instance)
+        {
+            var that = (global::FIXurance.CustomUserControls.ImageRadioButton)instance;
+            return that.GroupName;
+        }
+        private void set_5_ImageRadioButton_GroupName(object instance, object Value)
+        {
+            var that = (global::FIXurance.CustomUserControls.ImageRadioButton)instance;
+            that.GroupName = (global::System.String)Value;
+        }
+        private object get_6_ImageRadioButton_IsChecked(object instance)
+        {
+            var that = (global::FIXurance.CustomUserControls.ImageRadioButton)instance;
+            return that.IsChecked;
+        }
+        private void set_6_ImageRadioButton_IsChecked(object instance, object Value)
+        {
+            var that = (global::FIXurance.CustomUserControls.ImageRadioButton)instance;
+            that.IsChecked = (global::System.Boolean)Value;
         }
 
         private global::Windows.UI.Xaml.Markup.IXamlMember CreateXamlMember(string longMemberName)
@@ -354,6 +437,36 @@ namespace FIXurance.FixuranceProject_XamlTypeInfo
                 xamlMember = new global::FIXurance.FixuranceProject_XamlTypeInfo.XamlMember(this, "NavigationHelper", "TEst.Common.NavigationHelper");
                 xamlMember.Getter = get_1_BasicPage1_NavigationHelper;
                 xamlMember.SetIsReadOnly();
+                break;
+            case "FIXurance.CustomUserControls.ImageRadioButton.CustomBorderThickness":
+                userType = (global::FIXurance.FixuranceProject_XamlTypeInfo.XamlUserType)GetXamlTypeByName("FIXurance.CustomUserControls.ImageRadioButton");
+                xamlMember = new global::FIXurance.FixuranceProject_XamlTypeInfo.XamlMember(this, "CustomBorderThickness", "Windows.UI.Xaml.Thickness");
+                xamlMember.Getter = get_2_ImageRadioButton_CustomBorderThickness;
+                xamlMember.Setter = set_2_ImageRadioButton_CustomBorderThickness;
+                break;
+            case "FIXurance.CustomUserControls.ImageRadioButton.CustomBorderBrush":
+                userType = (global::FIXurance.FixuranceProject_XamlTypeInfo.XamlUserType)GetXamlTypeByName("FIXurance.CustomUserControls.ImageRadioButton");
+                xamlMember = new global::FIXurance.FixuranceProject_XamlTypeInfo.XamlMember(this, "CustomBorderBrush", "Windows.UI.Xaml.Media.SolidColorBrush");
+                xamlMember.Getter = get_3_ImageRadioButton_CustomBorderBrush;
+                xamlMember.Setter = set_3_ImageRadioButton_CustomBorderBrush;
+                break;
+            case "FIXurance.CustomUserControls.ImageRadioButton.ImageSource":
+                userType = (global::FIXurance.FixuranceProject_XamlTypeInfo.XamlUserType)GetXamlTypeByName("FIXurance.CustomUserControls.ImageRadioButton");
+                xamlMember = new global::FIXurance.FixuranceProject_XamlTypeInfo.XamlMember(this, "ImageSource", "String");
+                xamlMember.Getter = get_4_ImageRadioButton_ImageSource;
+                xamlMember.Setter = set_4_ImageRadioButton_ImageSource;
+                break;
+            case "FIXurance.CustomUserControls.ImageRadioButton.GroupName":
+                userType = (global::FIXurance.FixuranceProject_XamlTypeInfo.XamlUserType)GetXamlTypeByName("FIXurance.CustomUserControls.ImageRadioButton");
+                xamlMember = new global::FIXurance.FixuranceProject_XamlTypeInfo.XamlMember(this, "GroupName", "String");
+                xamlMember.Getter = get_5_ImageRadioButton_GroupName;
+                xamlMember.Setter = set_5_ImageRadioButton_GroupName;
+                break;
+            case "FIXurance.CustomUserControls.ImageRadioButton.IsChecked":
+                userType = (global::FIXurance.FixuranceProject_XamlTypeInfo.XamlUserType)GetXamlTypeByName("FIXurance.CustomUserControls.ImageRadioButton");
+                xamlMember = new global::FIXurance.FixuranceProject_XamlTypeInfo.XamlMember(this, "IsChecked", "Boolean");
+                xamlMember.Getter = get_6_ImageRadioButton_IsChecked;
+                xamlMember.Setter = set_6_ImageRadioButton_IsChecked;
                 break;
             }
             return xamlMember;
